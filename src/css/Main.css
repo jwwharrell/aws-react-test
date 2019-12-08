@@ -1,6 +1,4 @@
-main {
-    height: 100%;
-}
+
 
 article {
     flex: 3;
@@ -10,6 +8,7 @@ article {
     justify-content: center;
     align-content: center;
     color: black;  
+    
 }
 
 h1 {
@@ -22,6 +21,21 @@ h4 {
     text-align: center;
     font-size: 30px;
     font-weight: 100;
+    color: white;
+    -webkit-transition: color 1s;
+}
+
+h4:hover {
+    -webkit-transition: color 1s;
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 16, 0, .5);
+
 }
 
 @media screen and (max-width: 500px) {

@@ -8,7 +8,6 @@ export default class Main extends Component {
                 <main>
                     <article>
                         <h1>Jordan Wadsworth-Harrell</h1>
-                        <h4>My Personal Portfolio Site</h4>
                     </article>
                 </main>
             </div>
