@@ -1,0 +1,36 @@
+main {
+    height: 100%;
+}
+
+article {
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: black;  
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 200;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+        word-spacing: 500px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+}
