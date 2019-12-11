@@ -49,6 +49,7 @@ h4:hover {
     height: 600px;
     width: 80vw;
     justify-content: space-around;
+    align-items: center;
 }
 
 .top-project-group {
@@ -63,6 +64,24 @@ h4:hover {
     height: 280px;
 }
 
+@media screen and (max-width: 850px) {
+    .top-project-group {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    } 
+
+    .bottom-project-group {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+}
+
+
+
 @media screen and (max-width: 500px) {
     h1 {
         font-size: 30px;
@@ -72,4 +91,18 @@ h4:hover {
     h4 {
         font-size: 24px;
     }
+    
+    .project-container {
+        height: 700px;
+    }
+
+    .top-project-group {
+        width: 100%;
+    }
+
+    .bottom-project-group {
+        width: 100%;
+    }
 }
+
+
