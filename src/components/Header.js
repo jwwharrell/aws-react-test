@@ -8,6 +8,7 @@ export default class Header extends Component {
                 <header>
                     <div className="header-container">
                         <img src={require("../images/profilish-pic-square.jpg")} alt="Jordan's face." />
+                        <h2>Jordan Wadsworth-Harrell</h2>
                         <div className="social-media">
                             <a href="https://www.linkedin.com/in/jordan-harrell-37abaa68" className="fa fa-linkedin"><span className="sr-only">Jordan's Linked In</span></a>
                             <a href="https://github.com/jwwharrell" className="fa fa-github"><span className="sr-only">Jordan's GitHub</span></a>

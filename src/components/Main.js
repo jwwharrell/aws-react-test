@@ -1,15 +1,17 @@
 import React, { Component } from 'react'
 import '../css/Main.css'
+import ProjectCarousel from './ProjectCarousel'
 
 export default class Main extends Component {
+    
+    componentDidMount() {
+        console.log("Component")
+        
+    }
     render() {
         return (
-            <div>
-                <main>
-                    <article>
-                        <h1>Jordan Wadsworth-Harrell</h1>
-                    </article>
-                </main>
+            <div className='main-conatainer'>
+              <ProjectCarousel />  
             </div>
         )
     }
