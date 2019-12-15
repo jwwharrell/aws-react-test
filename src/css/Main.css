@@ -64,12 +64,15 @@ h4:hover {
     height: 280px;
 }
 
+
+
 @media screen and (max-width: 850px) {
     .top-project-group {
         display: flex;
         flex-direction: column;
         height: auto;
         align-items: center;
+
     } 
 
     .bottom-project-group {
@@ -77,10 +80,18 @@ h4:hover {
         flex-direction: column;
         height: auto;
         align-items: center;
+
     }
+    
+    _::-webkit-full-page-media, _:future, :root .top-project-group {
+        margin-bottom: 13vw;
+    }
+
+    _::-webkit-full-page-media, _:future, :root .bottom-project-group {
+        margin-top: 13vw;
+    }
+
 }
-
-
 
 @media screen and (max-width: 500px) {
     h1 {
@@ -105,4 +116,22 @@ h4:hover {
     }
 }
 
+@media screen and (max-width: 730px) {
+    _::-webkit-full-page-media, _:future, :root .top-project-group {
+        margin-bottom: 20vw;
+    }
 
+    _::-webkit-full-page-media, _:future, :root .bottom-project-group {
+        margin-top: 20vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    _::-webkit-full-page-media, _:future, :root .top-project-group {
+        margin-bottom: 28vw;
+    }
+
+    _::-webkit-full-page-media, _:future, :root .bottom-project-group {
+        margin-top: 28vw;
+    }
+}
