@@ -1,6 +1,6 @@
 header {
     height: 100px;
-    background-color: rgba(10, 63, 10, 0.5);
+    background-color: hsla(120, 73%, 14%, 0.5);
     display: flex;
     align-items: center;
     justify-content: space-around;

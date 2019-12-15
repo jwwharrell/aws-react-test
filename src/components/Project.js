@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "../css/Project.css"
+import 'animate.css'
 
 export default class Project extends Component {
     render() {
