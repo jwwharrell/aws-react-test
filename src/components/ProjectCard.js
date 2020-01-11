@@ -5,7 +5,11 @@ import Card from 'react-bootstrap/Card'
 export default class ProjectCard extends Component {
     render() {
         return (
-            <Card style={{ width: '18rem' }}>
+            <Card 
+            style={{ width: '18rem' }}
+            bg="success"
+            text="danger"
+            >
                 <Card.Img variant="top" src={this.props.image} />
                 <Card.Body>
                     <Card.Title>{this.props.title}</Card.Title>
