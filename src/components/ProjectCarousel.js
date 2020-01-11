@@ -19,7 +19,7 @@ export default class ProjectCarousel extends Component {
                     color: "#849D84"
                 }}
                 >Projects</h2>
-                <CardColumns >
+                <CardColumns>
                     <ProjectCard
                         number='1'
                         title='Santo Portofino'

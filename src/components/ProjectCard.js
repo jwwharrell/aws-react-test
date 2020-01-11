@@ -6,7 +6,11 @@ export default class ProjectCard extends Component {
     render() {
         return (
             <Card 
-            style={{ width: '18rem' }}
+            style={{ 
+                width: '18rem',
+                margin: 'auto',
+                "margin-bottom": "0.75rem"
+                 }}
             bg="success"
             text="danger"
             >
