@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
 
 export default class LandingPage extends Component {
@@ -17,23 +16,21 @@ export default class LandingPage extends Component {
                 }}
             >
                 <Container
-                style={{
-                    "height": "100%"
-                }}
-                className='justify-content-center align-items-center'
-                
+                    style={{
+                        "height": "100%"
+                    }}
+                    className='d-flex justify-content-center align-items-center'
                 >
-                    <Card 
-                    style={{ 
-                        width: '18rem',
-                        'margin': '0 auto'
-                         }}
-                    bg='danger'
+                    <Card
+                        style={{
+                            width: '18rem',
+                        }}
+                        bg='light'
                     >
                         <Card.Body>
                             <Card.Title
                                 style={{
-                                    "color": "#849D84"
+                                    "color": "#849D84",
                                 }}
                             >Welcome</Card.Title>
                             <Card.Text>

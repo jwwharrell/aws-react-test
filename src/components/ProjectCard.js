@@ -15,7 +15,9 @@ export default class ProjectCard extends Component {
             text="danger"
             >
                 <Card.Img variant="top" src={this.props.image} />
-                <Card.Body>
+                <Card.Body style={{
+                    'color': '#849D84'
+                }}>
                     <Card.Title>{this.props.title}</Card.Title>
                     <Card.Text>
                         {this.props.description}
