@@ -1,0 +1,13 @@
+$primary: #849D84;
+$secondary: #6B757D;
+$success: #DDEBDD;
+$info: #3C523C;
+$warning: #9E8591;
+$danger: #ffffffce;
+
+
+@import '~bootstrap/scss/bootstrap';
+
+.view {
+    height: 100vh;
+}
