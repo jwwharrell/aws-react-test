@@ -4,6 +4,7 @@ import SantoIMG from '../images/screenshots/santo_portofino_ss.png'
 import PlacesIMG from '../images/screenshots/all_the_places_ss.png'
 import FashionIMG from '../images/screenshots/fashion_forward_ss.png'
 import AmbientIMG from '../images/screenshots/AmbientJam_ss.png'
+import AcquisitionIMG from '../images/screenshots/Acquisition_Tool_ss.png'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -39,6 +40,16 @@ export default class ProjectCarousel extends Component {
                             image={FashionIMG}
                             gitHub='https://github.com/jwwharrell/Project-3-App'
                             appLink='https://fashion-forward-app.herokuapp.com/'
+                        />
+                    </Col>
+                    <Col>
+                        <ProjectCard
+                            number='5'
+                            title='Acquisition'
+                            description="An online tool that allows the creation and tracking of prospective companies for acquisition. It is purely a front end applictaion with no persisting data."
+                            image={AcquisitionIMG}
+                            gitHub='https://github.com/jwwharrell/acquisition-tool'
+                            appLink='https://master.d27udzalc0jumd.amplifyapp.com/'
                         />
                     </Col>
                 </Row>
