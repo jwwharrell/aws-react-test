@@ -23,7 +23,7 @@ export default class BootHeader extends Component {
                 </Navbar.Text>
                 <Nav.Link href='#aboutMe'>About Me</Nav.Link>
                 <NavDropdown title="Contact" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="https://www.linkedin.com/in/jordan-harrell-37abaa68" target="_blank" rel="noopener noreferrer">LinkedIn</NavDropdown.Item>
+                    <NavDropdown.Item href="https://www.linkedin.com/in/jordan-wadsworth-harrell-37abaa68/" target="_blank" rel="noopener noreferrer">LinkedIn</NavDropdown.Item>
                     <NavDropdown.Item href="https://github.com/jwwharrell" target="_blank" rel="noopener noreferrer">GitHub</NavDropdown.Item>
                     <NavDropdown.Item href="mailto: jwharrell0516@gmail.com" target="_blank" rel="noopener noreferrer">Email</NavDropdown.Item>
                 </NavDropdown>
